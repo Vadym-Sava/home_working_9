@@ -335,6 +335,7 @@ template {
 html {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
+  overflow-y: scroll;
 }
 
 body {
@@ -389,6 +390,8 @@ a {
   -ms-flex-line-pack: center;
       align-content: center;
   padding: 150px 0;
+  background-position: center;
+  background-size: cover;
 }
 
 .header-content {
