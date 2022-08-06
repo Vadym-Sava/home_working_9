@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size;
+  font-family: $font-main;
+}
+
+body {
+  color: $color-primary;
+  background-color: $color-light;
+}
+
+
+h1 {
+  font-family: $font-header;
+
+  font-size: 3.75rem;
+  letter-spacing: 0.08em;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: $color-light;
+}

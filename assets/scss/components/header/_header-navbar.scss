@@ -1,0 +1,31 @@
+.header-navbar {
+  flex-grow: 1;
+
+  &__btn {
+    display: none;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    @include unlist;
+  }
+
+  &__item {
+    margin: $gap $gap-sm;
+  }
+
+  &__link {
+    display: block;
+    padding: $gap $gap-sm;
+
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    transition: color 0.5s;
+
+    &:hover,
+    &:focus {
+      color: $color-accent;
+    }
+  }
+}
